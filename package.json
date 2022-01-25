@@ -1,0 +1,34 @@
+{
+  "type": "module",
+  "name": "crossfitxmple-server",
+  "version": "1.0.0",
+  "description": "Repository for the back end of the app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "NODE_ENV=production node index.js",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanmuscaisser/crossfitxmple-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanmuscaisser/crossfitxmple-server/issues"
+  },
+  "homepage": "https://github.com/kanmuscaisser/crossfitxmple-server#readme",
+  "dependencies": {
+    "dotenv": "^14.3.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.7.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
