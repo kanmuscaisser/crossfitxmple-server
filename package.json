@@ -22,13 +22,15 @@
   "homepage": "https://github.com/kanmuscaisser/crossfitxmple-server#readme",
   "dependencies": {
     "dotenv": "^14.3.0",
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "eslint": "^8.7.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.15",
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "redoc-cli": "^0.13.6"
   }
 }
