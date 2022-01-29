@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/kanmuscaisser/crossfitxmple-server#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^14.3.0",
     "express": "^4.17.2",
     "morgan": "^1.10.0"
